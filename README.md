@@ -14,7 +14,7 @@ WiNGS is a web-based analysis platform for Whole Exome / Whole Genome sequencing
 
 ### Setting up WiNGS
 
-To setup WiNGS, we provide a manual [here](https://dev.azure.com/wingsorg/wings_api_deploy). In order to finalize the setup, you will have to register in the [central infrastructure](https://wings-platform.org) as well. To do so, please [contact us](mailto:geert.vandeweyer@uza.be).
+To setup WiNGS, we provide a manual [here (mongoDB)](https://dev.azure.com/wingsorg/wings_api_deploy) and [here (annotations)](https://dev.azure.com/wingsorg/wings_anno_deploy). In order to finalize the setup, you will have to register in the [central infrastructure](https://wings-platform.org) as well. To do so, please [contact us](mailto:geert.vandeweyer@uza.be).
 
 
 ### Available Repositories
@@ -32,6 +32,7 @@ flowchart TD;
    G --> H["annotation_parser<br/>-------<br/>Routines to combine annotations from different subtasks"]
    G --> I["vep_annotations<br/>-------<br/>Extended container to perform Ensmbel VEP"]
    G --> J["cadd_annotations<br/>-------<br/>Extended container to perform cadd scoring"]
+   C --> K["wings_rstats<br/>-------<br/>R deployment to perform anonymized statistics"]
 ```
 
 ### Demo 
