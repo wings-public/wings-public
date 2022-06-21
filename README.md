@@ -1,6 +1,6 @@
 ## WiNGS : The Widely Intergrated NGS platform for federated genome analysis
 
-![WiNGS logo](images/wings_logo.jpg)
+![WiNGS logo](https://github.com/wings-public/wings-public/raw/main/images/wings_logo.jpg)
 
 ### Homepage
 
@@ -10,7 +10,7 @@
 
 WiNGS is a web-based analysis platform for Whole Exome / Whole Genome sequencing data. It is built as a federated ecosystem, where all senstivate data is kept on premise of registered users (e.g. a genetic center), and queried from a centralized user interface. This approach allows, amongst others, secure cross-center collaboration and anonymized statistical analysis. A simplified overview of the setup is shown here : 
 
-![WiNGS infrastructure layout](images/layout.jpg "WiNGS infrastructural layout")
+![WiNGS infrastructure layout](https://github.com/wings-public/wings-public/raw/main/images/layout.jpg "WiNGS infrastructural layout")
 
 ### Setting up WiNGS
 
