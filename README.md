@@ -1,6 +1,10 @@
 ## WiNGS : The Widely Intergrated NGS platform for federated genome analysis
 
-Platform Homepage : [https://wings-platform.org](https://wings-platform.org)
+![WiNGS logo](images/wings_logo.jpg)
+
+### Homepage
+
+[https://wings-platform.org](https://wings-platform.org)
 
 ### What is WiNGS
 
