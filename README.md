@@ -8,7 +8,7 @@
 
 ### What is WiNGS
 
-WiNGS is a web-based analysis platform for Whole Exome / Whole Genome sequencing data. It is built as a federated ecosystem, where all senstivate data is kept on premise of registered users (e.g. a genetic center), and queried from a centralized user interface. This approach allows, amongst others, secure cross-center collaboration and anonymized statistical analysis. A simplified overview of the setup is shown here : 
+WiNGS is a web-based analysis platform for Whole Exome / Whole Genome sequencing data. It is built as a federated ecosystem, where all senstivate data is kept on premise of registered users (e.g. a genetic center), and queried from a centralized user interface. This approach allows, amongst others, secure cross-center collaboration and anonymized statistical analysis. A simplified overview of the setup is shown here: 
 
 ![WiNGS infrastructure layout](https://github.com/wings-public/wings-public/raw/main/images/layout.jpg "WiNGS infrastructural layout")
 
@@ -33,6 +33,11 @@ flowchart TD;
    G --> I["vep_annotations<br/>-------<br/>Extended container to perform Ensmbel VEP"]
    G --> J["cadd_annotations<br/>-------<br/>Extended container to perform cadd scoring"]
 ```
+
+### Demo 
+
+An overview of the capabilities of WiNGS is available on [youtube](https://www.youtube.com/watch?v=XlAMtSvBuwI)
+
 
 ### License
 WiNGS is available under the [*GNU Affero General Public License Version 3*](https://www.gnu.org/licenses/agpl-3.0.en.html)
